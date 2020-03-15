@@ -1,0 +1,209 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 10px;
+  background-color: lightgray;
+}
+
+.contentWrapper {
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  padding: 0;
+  display: flex;
+}
+
+.button {
+  font-size: 12px;
+  padding: 5px 12px;
+  background-color: white;
+  border: 1px solid rgb(0, 89, 255);
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  font-size: 12px;
+  padding: 5px 12px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.header {
+  padding: 0px 10px 10px 10px;
+  border: 1px solid black;
+  width: auto;
+  height: 110px;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#companyName {
+  float: left;
+}
+
+#companySlogan {
+  margin-top: 75px;
+  float: right;
+  font-style: italic;
+}
+
+.header h1 {
+  color: rgb(0, 89, 255);
+  font-size: 4.5em;
+  margin: 0;
+  text-shadow: 1px 2px 0 #000;
+}
+
+.header h2 {
+  font-weight: 300;
+  font-size: 1.8em;
+  color: black;
+  margin: 0 0 0 1.0em;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.topNav ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.topNav li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.topNav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topNav li a:hover {
+  background-color: rgb(0, 89, 255);
+}
+
+.topNav li:last-child {
+  border-right: none;
+}
+
+.topNav input#search {
+  vertical-align: middle;
+  margin: 12px 0 0 1.0em;
+}
+
+.contentBox {
+  margin: auto;
+  width: 100%;
+  overflow: auto;
+  margin-top: 15px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.productImages {
+  margin: 7px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 200px;
+  padding: 0;
+  padding-bottom: 3px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.footer {
+    display: table;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.columnLeft {
+  float: left;
+  box-sizing: border-box;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  margin-left: 0px;
+  margin-right: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.columnMiddle {
+  float: left;
+  box-sizing: border-box;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  margin-left: 28px;
+  margin-right: 28px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.columnRight {
+  float: left;
+  box-sizing: border-box;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 0;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.columnLeft h2 {
+  color: rgb(0, 89, 255);
+  margin: 0;
+  text-shadow: 1px 2px 0 #000;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+.columnMiddle h2 {
+  color: rgb(0, 89, 255);
+  margin: 0;
+  text-shadow: 1px 2px 0 #000;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+.columnRight h2 {
+  color: rgb(0, 89, 255);
+  margin: 0;
+  text-shadow: 1px 2px 0 #000;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
